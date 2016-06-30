@@ -1,1 +1,1 @@
-# Nested-Tic-Tac-Toe
+# Nested-Tic-Tac-Toe (Also called Nested Noughts and Crosses)
