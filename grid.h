@@ -11,6 +11,7 @@ class Grid{
         void reset();
 	char get_char_print(int, int);
 	void play_turn(char, std::string);
+	char check_win_grid(char,std::string);
 	void set_current();
 	void rem_current(); 
 };

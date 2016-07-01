@@ -11,6 +11,7 @@ friend class Grid;
 	char turn;
 	char textDisplay[17][29];
         char results[3][3];
+	bool ended;
 	std::string action;
 	public:
 	Board();
@@ -20,6 +21,8 @@ friend class Grid;
 	void setup();
 	void recive_action(std::string action);
 	void change_turn(char turn);		
+	bool check_win_game();
+	bool has_ended();
 };
 
 #endif
